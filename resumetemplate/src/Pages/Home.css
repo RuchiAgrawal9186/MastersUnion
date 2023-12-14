@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.main{
+    width:50%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 1%;
+    font-family: Open Sans;
+    margin-bottom: 1%;
+    /* height:100vh; */
+    /* padding: 0px 3px 3px 3px; */
+}
+.header{
+    background-color: #10657E;
+    height: 50px;
+}
+.Container{
+ width:100%;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+}
+.left{
+    width: 60%;
+}
+.right{
+    width:30%
+}
+.line{
+    border-radius: 10px;
+background-color:  #D4D4D4;
+height: 4px;
+margin: 1% 0px;
+}
+.sections{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    gap:10px;
+    font-family: Barlow Semi Condensed;
+}
+.sectionName{
+  font-weight: 700;
+  font-size: 17px;
+  font-family: Barlow Semi Condensed;
+  font-weight: 600;
+  margin-bottom: 1%;
+}
+.sectionline{
+    height:10px;
+    width:70%;
+    background-color: #DBE8EC;
+}
+.experinceline{
+    height:10px;
+    width:80%;
+    background-color: #DBE8EC;
+}
+.educationline{
+    height:10px;
+    width:80%;
+    background-color: #DBE8EC;
+}
+.activityline{
+    height:10px;
+    width:50%;
+    background-color: #DBE8EC;
+}
+.companyDetail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.companyDesc {
+    width: 90%;
+    margin: auto;
+    color: #414042;
+    font-family: Open Sans;
+    font-size: 15px;
+    /* margin-left: 4%; */
+} 
+.Educations{
+    width:100%;
+    margin: auto;
+}
+.Certificate{
+    width:100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftside p{
+    font-size: 15px;
+    color: #414042;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+}
+.contactDetails{
+  display: flex;
+  gap:5px;
+}
+.contactDetails desc{
+    font-size: 13px;
+    color: #414042;
+    line-height: 5%;
+}
+.logos img{
+    width:100%
+}
