@@ -1,0 +1,336 @@
+.topContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(75px);
+  margin-bottom: 4%;
+}
+.topContainer .left {
+  width: 40%;
+  margin: auto;
+}
+.topContainer .left button {
+  background-color: #7757f4;
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  margin-top: 3%;
+}
+.topContainer .right {
+  width: 70%;
+  margin: auto;
+  position: relative;
+}
+.right .topdiv {
+  padding: 10px;
+  width: 20%;
+  border-radius: 7.889px;
+  background: var(--white, #fff);
+  box-shadow: 4.15px 4.15px 16.6px 0px rgba(0, 0, 0, 0.05);
+  margin-left: 85%;
+  position: absolute;
+}
+.right .colors {
+  width: 30%;
+  border-radius: 3.53px;
+  opacity: 0.9;
+  background: var(--white, #fff);
+  box-shadow: 0px 0px 7.516px 0px rgba(0, 0, 0, 0.05);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  padding: 20px 5px;
+  position: absolute;
+  margin-top: -35%;
+}
+.colors div {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.pink {
+  background-color: #f7a9a7;
+}
+.lightgreen {
+  background-color: #7bc896;
+}
+.maroon {
+  background-color: #800609;
+}
+.blue {
+  background-color: #7757f4;
+}
+.darkgreen {
+  background-color: #00afc5;
+}
+.lightblue {
+  background-color: #1e90ff;
+}
+.yellow {
+  background-color: #ffcd42;
+}
+.purple {
+  background-color: #a089f7;
+}
+.cyan {
+  background-color: #97e7f8;
+}
+.brown {
+  background-color: #fa6b07;
+}
+.right img {
+  width: 100%;
+}
+
+.resumeMaker {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4%;
+}
+.resumeMaker .left {
+  margin: auto;
+  width: 45%;
+}
+.resumeMaker .right {
+  width: 35%;
+  padding: 10px;
+  border-radius: 20px;
+  border: 0.5px solid var(--grey, #d4d4d4);
+  background: var(--white, #fff);
+  margin: auto;
+
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.resumeMaker .right .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #e5e5e5;
+  padding: 5px 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.guidence {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.guidence .left {
+  width: 40%;
+  border-radius: 20px 0px 0px 0px;
+  background: var(--purple, #7757f4);
+  color: white;
+  padding: 20px;
+}
+.guidence .left h2 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2%;
+  margin-top: 7%;
+}
+.guidence .left p {
+  margin: auto;
+  text-align: center;
+  width: 70%;
+  margin-top: 5%;
+}
+.guidence .left button {
+  background-color: white;
+  color: black;
+  padding: 3px 10px;
+  border: none;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 4%;
+}
+.guidence .right {
+  width: 60%;
+  border-radius: 0px 20px 0px 0px;
+}
+
+.btmguidence {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 40px 10px;
+  margin-bottom: 2%;
+
+  border-radius: 0px 0px 20px 20px;
+  border: 0.5px solid var(--grey, #d4d4d4);
+  background: var(--white, #fff);
+
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.middlecontainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 10px;
+  margin-bottom: 2%;
+}
+.middlecontainer .left img {
+  width: 100%;
+  background: linear-gradient(
+    232deg,
+    #d3d0e6 -62.79%,
+    rgba(98, 79, 213, 0) 111.65%
+  );
+  background: linear-gradient(
+    252deg,
+    #cdccd8 9.81%,
+    rgba(205, 204, 216, 0) 109.17%
+  );
+}
+
+.middlecontainer .right {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.library {
+  background-color: #fafafa;
+  margin-bottom: 3%;
+  width: 100%;
+  padding: 25px 0px;
+  /* margin: auto; */
+}
+.library h1 {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1%;
+}
+
+.library .container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+}
+.library .container img {
+  width: 100%;
+}
+
+.createResume {
+  background-color: #ebe6fd;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 25px;
+}
+.createResume h1 {
+  width: 40%;
+  margin: auto;
+  margin-top: 1%;
+}
+.createResume p {
+  width: 50%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.createResume button {
+  padding: 5px 10px;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+  .library .container {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .middlecontainer {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .middlecontainer .left {
+    width: 100%;
+    margin: auto;
+  }
+  .middlecontainer .right {
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+  }
+  .guidence {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+  }
+  .guidence .left {
+    width: 100%;
+    margin: auto;
+  }
+  .guidence .right {
+    width: 100%;
+    margin: auto;
+  }
+  .btmguidence {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 0px 0px 20px 20px;
+    padding: 40px 10px;
+    margin-bottom: 2%;
+  }
+  .resumeMaker {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4%;
+  }
+  .resumeMaker .left {
+    width: 100%;
+    margin: auto;
+  }
+  .resumeMaker .right {
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+  }
+  .topContainer {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(75px);
+    margin-bottom: 2%;
+  }
+  .topContainer .left {
+    width: 80%;
+    margin: auto;
+  }
+  .topContainer .right {
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  .createResume {
+    width: 100%;
+    margin: auto;
+  }
+}
